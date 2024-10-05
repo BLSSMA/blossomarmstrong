@@ -1,0 +1,54 @@
+.NameCard section{
+    background-color: white;
+    padding:25px;
+    margin:20px 0;
+    text-align: left;
+}
+
+.NameCard .SelfPortrait{
+    margin:0 auto;
+    border: 3px solid orange;
+    border-radius:111px;
+    width:246px;
+}
+
+.NameCard .selfImg{
+    padding-top:38px;
+}
+
+.NameCard a{
+    background-color: orangered;
+    color:white;
+    border:2px solid white;
+    padding:10px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius:8px;
+}
+
+.NameCard a:hover{
+    color:orangered;
+    background-color:white;
+    border:2px solid orangered;
+    transition: all 150ms ease-in-out;
+}
+
+.NameCard p{
+    line-height: 2;
+    padding:20px 0;
+}
+
+.NameCard h1{
+    padding-top:20px;
+}
+
+.NameCard h2{
+    font-size:46px;
+    font-weight:700;
+    padding-top:10px;
+}
+
+.NameCard .resumeLink{
+    padding-bottom:12px;
+}

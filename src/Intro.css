@@ -1,0 +1,10 @@
+.Intro section{
+    padding:40px;
+    border-radius:8px;
+}
+
+
+.SelfPortrait{
+    display:flex;
+    width:150px;
+}
