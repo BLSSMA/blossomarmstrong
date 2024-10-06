@@ -13,15 +13,11 @@ export default function Intro(){
         <section className="NameCard">
             <NameCard />
         </section>
-        <section>
-            <div className="recentProjects">
-            <div>RECENT PROJECTS</div>
+        <section className="ProjectCard">
                 <ProjectCard />            
-        </div>
         </section>    
         <section>    
         <div className="featuredWorks">
-        <div>FEATURED WORKS</div>
         <FeaturedWorks />
         <div className="project1">
             <div>img</div>

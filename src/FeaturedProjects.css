@@ -1,0 +1,16 @@
+.FeaturedProjects .grid {
+    text-align: start;
+}
+
+.FeaturedProjects.project {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.FeaturedProjects.dateSkill {
+    padding-bottom: 10px;
+}
+
+.FeaturedProjects img {
+    width: 250px;
+}

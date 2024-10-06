@@ -1,0 +1,11 @@
+.navbar{
+    padding:2px 0 2px 30px;
+    background-color:rgba(244, 183, 225, 0.815);
+    border-radius:8px;
+    
+}
+
+.initialLogo{
+    height:30px;
+    padding-right:15px;
+}
