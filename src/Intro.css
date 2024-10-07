@@ -3,7 +3,9 @@
     border-radius:8px;
 }
 
-
+.Intro .container{
+    margin:0 auto;
+}
 .SelfPortrait{
     display:flex;
     width:150px;

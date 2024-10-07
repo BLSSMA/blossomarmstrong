@@ -6,27 +6,22 @@ import ProjectCard from "./ProjectCard";
 import FeaturedWorks from "./FeaturedWorks";
 
 
+
 export default function Intro(){
 
     return(
-        <div className="Intro">
+    <div className="Intro">
+        <div className="container">
         <section className="NameCard">
             <NameCard />
         </section>
         <section className="ProjectCard">
-                <ProjectCard />            
+            <ProjectCard />            
         </section>    
         <section>    
-        <div className="featuredWorks">
-        <FeaturedWorks />
-        <div className="project1">
-            <div>img</div>
-            <div>title</div>
-            <div>date and certificate</div>
-            <div>description</div>
+            <FeaturedWorks />
+        </section>
         </div>
-</div>
-</section>
-</div>
+    </div>
     );
 }

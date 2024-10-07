@@ -6,8 +6,9 @@ import "./FeaturedProjects.css";
 export default function FreaturedProjects(props){
 
 return(
+
     <div className="container FeaturedProjects">
-<div className="title">FEATURED WORKS</div>
+
             <div className="grid">
                 <div className="row">
                     <div className="col-4">

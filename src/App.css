@@ -1,9 +1,6 @@
-.App {
+.App{
   text-align: center;
   background-color: peachpuff;
+  margin:0 auto;
 }
 
-.containerNavBar{
-  width:75%;
-  margin: 0 auto;
-}

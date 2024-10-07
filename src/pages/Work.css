@@ -1,0 +1,29 @@
+.Work .container{
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.Work{
+
+    padding-bottom:20px;
+    text-align: start;
+}
+.workCards{
+    padding:40px 0;
+}
+
+.Work img{
+    width:550px;
+    margin:35px;
+    border-radius: 8px;
+}
+
+.Work .project{
+    font-size: 30px;
+    font-weight:600;
+}
+
+.Work .row .grid{
+    column-gap: 40px;
+}

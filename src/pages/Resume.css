@@ -1,0 +1,25 @@
+.grid{
+    margin:0;
+    padding:30px;
+}
+.row{
+margin:20px 20px 0 20px;
+padding:20px;
+}
+
+.Resume ul{
+    list-style: none;
+    text-align: left;
+}
+
+.leftSide, .rightSide{
+    background-color: white;
+    margin:0 auto;
+    width:600px;
+    text-align: left;
+}
+
+.experience, .additionalExperience, .Education{
+    padding:30px 30px 15px 30px;
+}
+

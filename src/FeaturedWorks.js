@@ -10,12 +10,12 @@ export default function FeaturedWorks(){
 
     return(
         <div className="FeaturedWorks">
-              <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>        
-              <hr /> 
-                          <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>   
-                          <hr />       
-              <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>          
-
+            <div className="title">FEATURED WORKS</div>
+                <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>        
+                    <hr /> 
+                <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>   
+                    <hr />       
+                <FeaturedProjects project={"React dictionary app"} dateSkill={"2024 react"} paragraph={"a paragraph explaining the first featured product will go here"}/>          
         </div>
     )
 }

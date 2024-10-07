@@ -1,28 +1,41 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import BALogo from "./images/BALogo.png";
 
-export default function NavBar(){
-    return(<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="initialLogo" href="/"><img src={BALogo} alt="logo of initials BA" class="initialLogo img-fluid sm" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="/">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>)
-}
+const NavBar = () => {
+ return (
+   <header className="header">
+     <nav className="nav ">
+       <NavLink to="/" className="nav__logo">
+         <img src={BALogo} alt="initial logo" />
+       </NavLink>
+
+       <div
+         className={"nav__menu"}
+         id="nav-menu"
+       >
+         <ul className="nav__list">
+           <li className="nav__item">
+             <NavLink to="/" className="nav__link">
+               Home
+             </NavLink>
+           </li>
+           <li className="nav__item">
+             <NavLink to="/Work" className="nav__link">
+               Work
+             </NavLink>
+           </li>
+           <li className="nav__item">
+             <NavLink to="/Resume" className="nav__link">
+               Resume
+             </NavLink>
+           </li>
+         </ul>
+       </div>
+     </nav>
+   </header>
+ );
+};
+
+export default NavBar;
