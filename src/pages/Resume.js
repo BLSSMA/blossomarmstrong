@@ -5,7 +5,8 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 
 
 export default function Resume(){
-    return (<div className="Resume grid">
+    return (
+    <div><div className="resumeTitle">Resume</div><div className="Resume grid">
         <div className="row name">
             <div className="col-12">
                 <div className="title">BLOSSOM ARMSTRONG</div>
@@ -144,5 +145,5 @@ export default function Resume(){
                             </div>
                         </div>
 </div>
-</div>
+</div></div>
             )}

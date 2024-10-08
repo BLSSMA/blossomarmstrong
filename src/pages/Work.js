@@ -14,6 +14,7 @@ import advancedReactDevelopment from "../images/advancedReactDevelopment.jpeg";
 
 export default function Work(){
     return (<div className="workCards">
+                <div className="workTitle">Work</div>
         <WorkCardStructure url="https://www.shecodes.io/cohorts/1729/projects/2153858?_gl=1*16uyybw*_gcl_au*MTc0MDk2OTc3NS4xNzI3ODAxNTQ2" image={introductionToCoding} project="Introduction To Coding" dateSkill="date and skill here" WorkParagraph="paragraph details"/>
         <WorkCardStructure url="https://www.shecodes.io/cohorts/1740/projects/2164793?_gl=1*lyf67f*_gcl_au*MTc0MDk2OTc3NS4xNzI3ODAxNTQ2"image={introductionToWebDevelopment} project="Introduction To Web Development" dateSkill="date and skill here" WorkParagraph="paragraph details" />
         <WorkCardStructure url="https://www.shecodes.io/cohorts/1751/projects/2219091?_gl=1*13qxrce*_gcl_au*MTc0MDk2OTc3NS4xNzI3ODAxNTQ2"image={webDevelopment} project="Web Development" dateSkill="date and skill here" WorkParagraph="paragraph details" />

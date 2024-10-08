@@ -6,6 +6,8 @@ import NavBar from "./NavBar";
 import Work from "./pages/Work";
 import React from "react";
 import Resume from "./pages/Resume";
+import Certificates from "./pages/Certificates";
+import Footer from "./Footer";
 
 
 function App() {
@@ -18,11 +20,12 @@ function App() {
          <Route path="/" element={<Intro />} />
          <Route path="/Work" element={<Work />} />
          <Route path="/Resume" element={<Resume />} />
+         <Route path="/Certificates" element={<Certificates />} />
          {/* Define other routes that you need*/}
        </Routes>
      </main>
    </Router>
-
+<Footer />
     </div>
   );
 }

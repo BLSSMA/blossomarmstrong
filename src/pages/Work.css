@@ -2,28 +2,37 @@
     background-color: white;
     border-radius: 8px;
     margin: 0 auto;
+    width:70%;
+    padding-bottom:40px;
+}
+
+.workTitle{
+    font-size: 38px;
+        font-weight: 600;
+        text-align: start;
+        padding: 0 0 40px 40px;
 }
 
 .Work{
-
-    padding-bottom:20px;
+    padding-bottom:50px;
     text-align: start;
 }
 .workCards{
     padding:40px 0;
 }
 
+.Work .row{
+    padding:0;
+}
+
 .Work img{
-    width:550px;
-    margin:35px;
+    width:500px;
+    height:500px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
 .Work .project{
     font-size: 30px;
     font-weight:600;
-}
-
-.Work .row .grid{
-    column-gap: 40px;
 }

@@ -1,0 +1,14 @@
+.Footer span{
+    font-size: 30px;
+    padding: 0 20px;
+}
+.Footer{
+    padding-bottom:40px;
+}
+
+.Footer a{
+    color:orangered;
+}
+.Footer a:hover{
+    opacity: 0.7;
+}
