@@ -1,17 +1,13 @@
 import React from "react";
 import "./Resume.css";
+import ResumeDetails from "./ResumeDetails";
 
-export default function Resume(props){
-    return (<div className="Resume">
-                <div className="grid">
-                    <div className="row">
-                        <div className="leftSide col-6">
-                                <div className="experience">
-                                <div>{props.business}</div>
-                                <div>{props.location}</div>
-                                <div>{props.position}</div>
-                                <div>{props.time}</div>
-                        <ul>
+export default function Resume(){
+    return (<div className="Resume grid">
+        <div className="row">
+                    <div className="leftSide col-6">
+            <ResumeDetails business="KIND FARMS RESERVE" location="357 Portland St, Berwick ME 03901" position="MANAGER" time="FEBRUARY 2020 - OCTOBER 2024" />
+                    <ul>
                         <li>
                             Hiring/firing/interviewing and maintaining staff  
                         </li>
@@ -39,15 +35,8 @@ export default function Resume(props){
                         <li>
                             Making menu displays that work well for staff and customers
                         </li>
-                    </ul>
-                    </div>
-                        <div className="experience">
-                            <div className="experienceTitle">
-                                <div className="business">YOUR GREEN THUMB CAREGIVERS LLC</div>
-                                <div className="location">99 STATE RD UNIT 2 KITTERY, ME 03904</div>
-                                <div className="position">MANAGER</div>
-                                <div className="time">FEBRUARY 2019- JANUARY 2020</div>
-                            </div>
+                    </ul>  
+            <ResumeDetails business="YOUR GREEN THUMB CAREGIVERS LLC" location="99 STATE RD UNIT 2 KITTERY, ME 03904" position="MANAGER" time="FEBRUARY 2019- JANUARY 2020" />
                             <ul>
                                 <li>
                                     Schedule out daily tasks
@@ -71,14 +60,8 @@ export default function Resume(props){
                                     Educating customers on product
                                 </li>
                             </ul>
-                        </div>
-                        <div className="experience">
-                            <div className="experienceTitle">
-                                <div className="business">KITTERY DISCOUNT SMOKE SHOP</div>
-                                <div className="location">99 STATE RD UNIT 1 KITTERY, ME 03904</div>
-                                <div className="position">MANAGER</div>
-                                <div className="time">JANUARY 2017 - FEBRUARY 2019</div>
-                            </div>
+
+                                <ResumeDetails business="KITTERY DISCOUNT SMOKE SHOP" location="99 STATE RD UNIT 1 KITTERY, ME 03904" position="MANAGER" time="JANUARY 2017 - FEBRUARY 2019" />
                             <ul>
                                 <li>
                                     Purchasing and pricing out inventory
@@ -93,9 +76,7 @@ export default function Resume(props){
                                     Restocking and inventory management 
                                 </li>
                             </ul>
-                        </div>    
-                    </div>
-
+                </div>
             <div className="rightSide col-6">
                         <div className="additionalExperience">
                             Additional experience
@@ -149,7 +130,6 @@ export default function Resume(props){
                             </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+</div>
+</div>
             )}

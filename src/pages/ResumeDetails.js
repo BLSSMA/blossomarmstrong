@@ -1,10 +1,12 @@
 import React from "react";
-import Resume from "./Resume";
+import "./Resume.css";
 
-export default function ResumeDetails(){
-    return(
-        <div>
-            <Resume business="KIND FARMS RESERVE" location="357 Portland St, Berwick ME 03901" position="MANAGER" time="FEBRUARY 2020 - OCTOBER 2024" />
-        </div>
-    )
+export default function ResumeDetails(props){
+    return(<div className="experience">
+            <div className="business">{props.business}</div>
+            <div>{props.location}</div>
+            <div>{props.position}</div>
+            <div>{props.time}</div>
+            </div>
+            )
 }

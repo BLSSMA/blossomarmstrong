@@ -7,7 +7,7 @@ margin:20px 20px 0 20px;
 padding:20px;
 }
 
-.Resume ul{
+ ul{
     list-style: none;
     text-align: left;
 }
@@ -17,6 +17,10 @@ padding:20px;
     margin:0 auto;
     width:600px;
     text-align: left;
+}
+
+.experience .business{
+    font-weight:600;
 }
 
 .experience, .additionalExperience, .Education{
