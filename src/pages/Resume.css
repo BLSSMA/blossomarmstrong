@@ -7,23 +7,68 @@ margin:20px 20px 0 20px;
 padding:20px;
 }
 
- ul{
-    list-style: none;
+.name{
+    background-color: white;
+    width:80%;
+    margin:0 auto;
+    border-radius: 6px;
+}
+.name .title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.name a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 20px;
+}
+
+.name .contact:hover{
+    opacity:0.7;
+}
+.name .mailIcon{
+position:relative;
+bottom:2px;
+color:orangered;
+}
+
+ ul{list-style-type: circle;
     text-align: left;
+}
+ul li{
+    line-height:1.75;
+    margin-left:14px;
 }
 
 .leftSide, .rightSide{
     background-color: white;
     margin:0 auto;
-    width:600px;
+    width:700px;
     text-align: left;
+    padding:30px;
+    border-radius: 6px;
+}
+.experience .position, .Education .position{
+    color:orangered;
 }
 
-.experience .business{
-    font-weight:600;
+.experience .business,
+.Education .business,
+.additionalExperience .business{
+    font-weight:700;
+}
+.experience .location,
+.Education .location{
+    font-size:14px;
+    font-style: italic;
+}
+.experience .time,
+.Education .time{
+    opacity: 0.6;
+    font-size: 14px;
 }
 
 .experience, .additionalExperience, .Education{
-    padding:30px 30px 15px 30px;
+    padding:30px 30px 5px 30px;
 }
 

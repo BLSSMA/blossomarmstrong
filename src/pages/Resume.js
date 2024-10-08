@@ -1,15 +1,25 @@
 import React from "react";
 import "./Resume.css";
 import ResumeDetails from "./ResumeDetails";
+import { HiOutlineMailOpen } from "react-icons/hi";
+
 
 export default function Resume(){
     return (<div className="Resume grid">
+        <div className="row name">
+            <div className="col-12">
+                <div className="title">BLOSSOM ARMSTRONG</div>
+                <div className="contact">
+                    <span className="mailIcon"><HiOutlineMailOpen /></span><a href="mailto:blossom.armstrong@gmail.com">blossom.armstrong@gmail.com</a>
+                </div>
+            </div>
+        </div>
         <div className="row">
                     <div className="leftSide col-6">
             <ResumeDetails business="KIND FARMS RESERVE" location="357 Portland St, Berwick ME 03901" position="MANAGER" time="FEBRUARY 2020 - OCTOBER 2024" />
                     <ul>
                         <li>
-                            Hiring/firing/interviewing and maintaining staff  
+                           Hiring/firing/interviewing and maintaining staff  
                         </li>
                         <li>
                             Large cash and check money handling and tracking 
@@ -61,7 +71,7 @@ export default function Resume(){
                                 </li>
                             </ul>
 
-                                <ResumeDetails business="KITTERY DISCOUNT SMOKE SHOP" location="99 STATE RD UNIT 1 KITTERY, ME 03904" position="MANAGER" time="JANUARY 2017 - FEBRUARY 2019" />
+            <ResumeDetails business="KITTERY DISCOUNT SMOKE SHOP" location="99 STATE RD UNIT 1 KITTERY, ME 03904" position="MANAGER" time="JANUARY 2017 - FEBRUARY 2019" />
                             <ul>
                                 <li>
                                     Purchasing and pricing out inventory
@@ -79,7 +89,7 @@ export default function Resume(){
                 </div>
             <div className="rightSide col-6">
                         <div className="additionalExperience">
-                            Additional experience
+                            <div className="business">ADDITIONAL EXPERIENCE:</div>
                             <ul>
                                 <li>
                                     identifying areas in need of improvement and learning on the fly to optimize effciency
@@ -95,9 +105,12 @@ export default function Resume(){
                                 </li>
                             </ul>
                         </div>
+                        <hr />
                         <div className="Education">
-                            SheCodes, Online 2024 - present
-                            Certificates earned:
+                            <div className="business">SHECODES</div> 
+                            <div className="location">ONLINE</div> 
+                            <div className="time">2024 - 2024</div>
+                            CERTIFICATES EARNED:
                             <ul>
                                 <li>
                                     Intro to coding
@@ -120,9 +133,9 @@ export default function Resume(){
                             </ul>
                         </div>
                         <div className="Education">
-                            RAYMOND HIGH SCHOOL,
-                            RAYMOND, NH
-                            2009- 2013
+                            <div className="business">RAYMOND HIGH SCHOOL</div>
+                            <div className="location">RAYMOND, NH</div>
+                            <div className="time">2009- 2013</div>
                             <ul>
                                 <li>
                                     High School Diploma

@@ -31,6 +31,11 @@ const NavBar = () => {
                Resume
              </NavLink>
            </li>
+            <li className="nav__item">
+             <NavLink to="/Certificates" className="nav__link">
+               Certificates
+             </NavLink>
+           </li>
          </ul>
        </div>
      </nav>
