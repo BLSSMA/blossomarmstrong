@@ -10,3 +10,10 @@
     display:flex;
     width:150px;
 }
+
+@media (screen < 1020px) {
+
+    .SelfPortrait{
+        display:none;
+    }
+}

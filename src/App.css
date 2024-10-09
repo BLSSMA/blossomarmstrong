@@ -1,6 +1,9 @@
+@media (width <= 1020px) {
+  .App {background-color: blue;}
+}
+
 .App{
   text-align: center;
   background-color: peachpuff;
   margin:0 auto;
 }
-

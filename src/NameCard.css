@@ -1,3 +1,4 @@
+
 .NameCard section{
     background-color: white;
     padding:25px;
@@ -43,7 +44,7 @@
     padding-top:20px;
 }
 
-.NameCard h2{
+.NameCard .name{
     font-size:46px;
     font-weight:700;
     padding-top:10px;
@@ -51,4 +52,28 @@
 
 .NameCard .resumeLink{
     padding-bottom:12px;
+}
+@media(max-width: 1020px) {
+    .name {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    .name{
+        text-align: center;
+    }
+
+    .NameCard {
+        width: 400px;
+        margin: 0 auto;
+    }
 }
