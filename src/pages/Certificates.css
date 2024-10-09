@@ -38,3 +38,44 @@
     padding-bottom:50px;
 }
 
+@media(max-width: 1020px) {
+.Certificates .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 88%;
+    }
+
+    .certTitle {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0 0 10px 10px;
+    }
+
+    .Certificates .row {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    .Certificates {
+        margin: 40px 0 0 0;
+    }
+
+    .Certificates .textCol {
+        padding:0;
+    }
+
+    .Certificates img {
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .Certificates .project {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .CertificateStructure {
+        padding-bottom: 20px;
+    }
+}
+

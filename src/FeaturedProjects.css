@@ -1,5 +1,7 @@
 .FeaturedProjects .grid {
     text-align: start;
+    margin:0;
+    padding-left:60px;
 }
 
 .FeaturedProjects.project {
@@ -8,9 +10,30 @@
 }
 
 .FeaturedProjects.dateSkill {
-    padding-bottom: 10px;
+    padding: 0 0 10px 0;
 }
 
 .FeaturedProjects img {
     width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media(max-width: 1020px) {
+.FeaturedProjects img{
+    width:200px;
+}
+    .FeaturedProjects .grid{
+        margin:0 auto;
+        padding:0;
+        display:block;
+    }
+    .FeaturedProjects .row{
+
+        margin:0 auto;
+    }
+    .FeaturedProjects{
+        margin:0 auto;
+        padding:0;
+    }
 }

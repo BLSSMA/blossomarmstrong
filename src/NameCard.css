@@ -54,26 +54,51 @@
     padding-bottom:12px;
 }
 @media(max-width: 1020px) {
-    .name {
-        font-size: 12px;
-        margin: 0 auto;
+    .NameCard{
+        padding:20px;
+        width:100%;
+        margin:0 auto;
     }
 
-    section {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
+    .NameCard .row{
+        padding:0;
+        margin:0 auto;
     }
-
-    h1 {
-        font-size: 20px;
-    }
-    .name{
-        text-align: center;
-    }
-
-    .NameCard {
-        width: 400px;
-        margin: 0 auto;
-    }
+    
+    .NameCard section {
+            padding: 20px;
+            margin:0 auto;
+            text-align: left;
+        }
+    
+        .NameCard .SelfPortrait {
+            margin: 0 auto;
+            width: 150px;
+        }
+    
+        .NameCard .selfImg {
+            padding-top: 18px;
+        }
+    
+        .NameCard a {
+            padding: 10px 14px;
+            font-size: 12px;
+        }
+    
+        .NameCard p {
+            line-height:1.5;
+            padding: 10px 0;
+        }
+    
+        .NameCard h1 {
+            padding-top: 16px;
+            font-size:24px;
+        }
+        .NameCard h2 {
+            font-size: 18px;
+        }
+    
+        .NameCard .resumeLink {
+            padding-bottom: 12px;
+        }
 }

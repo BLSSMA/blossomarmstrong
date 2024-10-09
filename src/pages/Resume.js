@@ -8,7 +8,7 @@ export default function Resume(){
     return (
     <div><div className="resumeTitle">Resume</div><div className="Resume grid">
         <div className="row name">
-            <div className="col-12">
+            <div className="col-sm-12">
                 <div className="title">BLOSSOM ARMSTRONG</div>
                 <div className="contact">
                     <span className="mailIcon"><HiOutlineMailOpen /></span><a href="mailto:blossom.armstrong@gmail.com">blossom.armstrong@gmail.com</a>
@@ -16,7 +16,7 @@ export default function Resume(){
             </div>
         </div>
         <div className="row">
-                    <div className="leftSide col-6">
+                    <div className="leftSide col-sm-6">
             <ResumeDetails business="KIND FARMS RESERVE" location="357 Portland St, Berwick ME 03901" position="MANAGER" time="FEBRUARY 2020 - OCTOBER 2024" />
                     <ul>
                         <li>
@@ -88,7 +88,7 @@ export default function Resume(){
                                 </li>
                             </ul>
                 </div>
-            <div className="rightSide col-6">
+            <div className="rightSide col-sm-6">
                         <div className="additionalExperience">
                             <div className="business">ADDITIONAL EXPERIENCE:</div>
                             <ul>

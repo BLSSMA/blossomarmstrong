@@ -78,3 +78,60 @@ ul li{
     padding:30px 30px 5px 30px;
 }
 
+
+@media(max-width: 1020px) {
+.grid {
+        margin: 0 auto;
+        padding: 5px;
+        width:88%;
+    }
+
+    .row {
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .resumeTitle {
+        font-size: 18px;
+        padding: 10px 0 0 10px;
+    }
+
+
+    .name .title {
+        font-size: 22px;
+    }
+
+    .name a {
+        font-size: 14px;
+    }
+
+    ul li {
+        line-height: 1.5;
+        margin-left: 4px;
+    }
+
+    .leftSide,
+    .rightSide {
+        padding: 10px;
+        margin-bottom:12px;
+    }
+
+
+    .experience .location,
+    .Education .location {
+        font-size: 12px;
+        line-height:2;
+    }
+
+    .experience .time,
+    .Education .time {
+        font-size: 12px;
+        line-height:2;
+    }
+
+    .experience,
+    .additionalExperience,
+    .Education {
+        padding: 10px 10px 0 10px;
+    }
+}

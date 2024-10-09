@@ -1,6 +1,77 @@
 .FeaturedWorks{
     background-color:white;
-    padding:33px;
     border-radius:8px;
+    width:93%;
+    margin:0 auto;
+}
+.FeaturedWorks .title{
+    font-size: 20px;
+    text-align: start;
 }
 
+.FeaturedWorks .grid{
+    padding:0;
+    width:80%;
+    margin:0 auto;
+}
+.FeaturedWorks .row{
+    padding:0;
+    margin:0;
+}
+.FeaturedWorks img{
+    padding-bottom:20px;
+}
+.FeaturedWorks p{
+    margin:0;
+    padding:0;
+}
+.FeaturedWorks section{
+    padding:0;
+
+    
+}
+.container{
+    padding:0;
+    margin:0;
+}
+hr{
+    margin-top:5px;
+}
+
+.FeaturedWorks .project{
+    font-size:32px;
+    font-weight:550;
+    padding:0;
+}
+.FeaturedWorks .dateSkill{
+    padding:10px 0;
+    color:rgba(0, 0, 0, 0.7);
+    font-size:18px;
+}
+
+
+
+@media(max-width: 1020px) {
+    .FeaturedWorks{
+        padding:0;
+        margin:0 auto;
+        width:88%;
+    }
+
+    .FeaturedWorks .project{
+        padding: 5px 0;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    hr{
+margin-top:10px;
+    }
+    .project{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .dateSkill{
+        color:orangered;
+    }
+
+}

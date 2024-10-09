@@ -6,14 +6,17 @@
 .Intro .container{
     margin:0 auto;
 }
-.SelfPortrait{
-    display:flex;
-    width:150px;
-}
 
-@media (screen < 1020px) {
 
-    .SelfPortrait{
-        display:none;
+@media(max-width: 1020px) {
+.Intro section {
+        padding: 0;
+        border-radius: 8px;
+        margin:0 auto;
+    }
+
+    .Intro .container {
+        margin: 0 auto;
+      
     }
 }

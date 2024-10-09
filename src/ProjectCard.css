@@ -1,6 +1,8 @@
 .ProjectCard section{
     background-color:white;    
     text-align:start;
+    padding:0;
+    margin:0;
 }
 
 .ProjectCard .title{
@@ -41,4 +43,63 @@
 
 .ProjectCard .projectCardOne{
 margin-right:4px;
+}
+
+@media(max-width: 1020px) {
+.ProjectCard section {
+        text-align: start;
+        padding:0;
+        margin:10px auto;
+        width:88%;
+    }
+
+    .ProjectCard .container{
+        padding:0;
+    }
+
+    .ProjectCard .row{
+        margin:0 auto;
+    }
+
+    .ProjectCard .title {
+        padding-bottom:10px;
+        margin-top:0;
+    }
+
+    .ProjectCard .cardTitle {
+        padding-bottom: 11px;
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+
+    .ProjectCard .date {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .ProjectCard .skills {
+        padding-left: 10px;
+        color: orangered;
+        font-size:14px;
+    }
+
+    .ProjectCard .dateSkills {
+        padding-bottom: 10px;
+    }
+
+    .ProjectCard p {
+        line-height: 1.5;
+    }
+
+    .ProjectCard .projectCardOne,
+    .ProjectCard .projectCardTwo {
+        padding: 16px;
+        margin: 0 auto;
+        border-radius: 4px;
+    }
+
+    .ProjectCard .projectCardOne {
+        margin-bottom:20px;
+    }
 }

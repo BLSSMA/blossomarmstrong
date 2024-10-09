@@ -1,9 +1,12 @@
-@media (width <= 1020px) {
-  .App {background-color: blue;}
-}
 
 .App{
   text-align: center;
   background-color: peachpuff;
   margin:0 auto;
+}
+
+@media(max-width: 1020px) {
+  .App {width:100%;
+  padding:0;
+margin:0;}
 }

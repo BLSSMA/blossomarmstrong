@@ -1,20 +1,19 @@
 import React from "react";
-import Dictionarypage from "./images/Dictionarypage.jpg";
 import "./FeaturedProjects.css";
 
 
 export default function FreaturedProjects(props){
 
 return(
-
+<section>
     <div className="container FeaturedProjects">
 
             <div className="grid">
                 <div className="row">
-                    <div className="col-4">
-                        <img src={Dictionarypage} alt="screenshot of webpage"/>
+                    <div className="col-sm-5">
+                        <img src={props.image} alt="screenshot of webpage"/>
                     </div>
-                    <div className="col-8">
+                    <div className="col-sm-7">
                         <div className="row">
                             <div className="project">{props.project}
                         </div></div>
@@ -28,4 +27,5 @@ return(
                 </div>
             </div>
           </div>  
+          </section>
         )}

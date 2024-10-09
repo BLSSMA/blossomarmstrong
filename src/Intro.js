@@ -18,7 +18,7 @@ export default function Intro(){
         <section className="ProjectCard">
             <ProjectCard />            
         </section>    
-        <section>    
+        <section className="FeaturedWorks">    
             <FeaturedWorks />
         </section>
         </div>
