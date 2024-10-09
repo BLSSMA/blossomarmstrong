@@ -10,10 +10,10 @@ return(
 
             <div className="grid">
                 <div className="row">
-                    <div className="col-sm-5">
+                    <div className="col-md-5">
                         <img src={props.image} alt="screenshot of webpage"/>
                     </div>
-                    <div className="col-sm-7">
+                    <div className="col-md-7">
                         <div className="row">
                             <div className="project">{props.project}
                         </div></div>

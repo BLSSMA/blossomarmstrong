@@ -11,7 +11,7 @@ export default function Footer(){
     return(
         <div className="Footer">
             <span className="linkedin">
-            <a href="www.linkedin.com/in/blossom-armstrong-9959b3306" target="_blank" rel="noreferrer" title="LinkedIn Profile"><LiaLinkedinIn />
+            <a href="https://www.linkedin.com/in/blossom-armstrong-9959b3306/" target="_blank" rel="noreferrer" title="LinkedIn Profile"><LiaLinkedinIn />
 </a>
             </span>
             <span className="shecodes">
@@ -26,6 +26,9 @@ export default function Footer(){
             <a href="https://app.netlify.com/teams/blssma/sites" target="_blank" rel="noreferrer" title="Netlify Profile"><SiNetlify />
 </a>
             </span>
+            <div className="tagline">
+                This project was coded by Blossom Armstrong, is open-sourced on GitHub and hosted on Netlify
+            </div>
         </div>
     )
 }

@@ -6,10 +6,10 @@ return(
         <div className="container"> 
             <div className="grid">
                 <div className="row">
-                    <div className="col-sm-7">
+                    <div className="col-md-7">
                        <a href={props.url} target="_blank" rel="noreferrer"><img src={props.image} alt="screenshot of a webpage" className="shadow"/></a>
                     </div>
-                    <div className="col-sm-5">
+                    <div className="col-md-5">
                         <div className="row">
                             <div className="project">{props.project}</div>
                         </div>

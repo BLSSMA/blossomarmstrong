@@ -59,7 +59,7 @@ export default function Resume(){
                                     Producing medicated edibles
                                 </li>
                                 <li>
-                                    Weighing, portioning, and selling medical marajuana
+                                    Weighing, portioning, and selling medical cannabis
                                 </li>
                                 <li>
                                     Making purchasing decisions and handling money
@@ -93,7 +93,7 @@ export default function Resume(){
                             <div className="business">ADDITIONAL EXPERIENCE:</div>
                             <ul>
                                 <li>
-                                    identifying areas in need of improvement and learning on the fly to optimize effciency
+                                    Identifying areas in need of improvement and learning on the fly to optimize effciency
                                 </li>
                                 <li>
                                     Creating and maintaining personal website on Shopify for 2+ years
