@@ -27,7 +27,7 @@ export default function Footer(){
 </a>
             </span>
             <div className="tagline">
-                This project was coded by Blossom Armstrong, is open-sourced on GitHub and hosted on Netlify
+                This project was coded by Blossom Armstrong, is open-sourced on GitHub, and hosted on Netlify
             </div>
         </div>
     )

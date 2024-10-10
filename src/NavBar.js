@@ -10,7 +10,6 @@ const NavBar = () => {
        <NavLink to="/" className="nav__logo">
          <img src={BALogo} alt="initial logo" />
        </NavLink>
-
        <div
          className={"nav__menu"}
          id="nav-menu"
@@ -40,7 +39,6 @@ const NavBar = () => {
        </div>
      </nav>
    </header>
- );
-};
+);}
 
 export default NavBar;

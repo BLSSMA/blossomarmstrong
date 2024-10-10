@@ -2,19 +2,22 @@ import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
 import Intro from "./Intro";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./NavBar";
+
 import Work from "./pages/Work";
 import React from "react";
 import Resume from "./pages/Resume";
 import Certificates from "./pages/Certificates";
 import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
 <Router>
      <NavBar />
+
      <main className="main-content">
        <Routes>
          <Route path="/" element={<Intro />} />
@@ -25,7 +28,10 @@ function App() {
        </Routes>
      </main>
    </Router>
+
+
 <Footer />
+
     </div>
   );
 }

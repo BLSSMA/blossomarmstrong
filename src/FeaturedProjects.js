@@ -11,7 +11,7 @@ return(
             <div className="grid">
                 <div className="row">
                     <div className="col-md-5">
-                        <img src={props.image} alt="screenshot of webpage"/>
+                        <img src={props.image} alt="screenshot of webpage" title="screenshot of a webpage"/>
                     </div>
                     <div className="col-md-7">
                         <div className="row">
