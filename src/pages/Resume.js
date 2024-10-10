@@ -10,6 +10,14 @@ export default function Resume(){
         <div className="row name">
             <div className="col-sm-12">
                 <div className="title">BLOSSOM ARMSTRONG</div>
+                <p className="minorPosition">JUNIOR FRONT END DEVELOPER</p>
+
+                <p>HTML + CSS, JS, JSX</p>
+
+                <p>VS CODE, GIT, NPM</p>
+
+                <p>FRONT END DEVELOPMENT, REACT.JS, 
+                 RESPONSIVE DEVELOPMENT</p>
                 <div className="contact">
                     <span className="mailIcon"><HiOutlineMailOpen /></span><a href="mailto:blossom.armstrong@gmail.com">blossom.armstrong@gmail.com</a>
                 </div>
