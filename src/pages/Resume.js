@@ -23,7 +23,7 @@ export default function Resume(){
                 </div>
             </div>
         </div>
-        <div className="row">
+        <div className="row details">
                     <div className="leftSide col-sm-6">
             <ResumeDetails business="KIND FARMS RESERVE" location="357 Portland St, Berwick ME 03901" position="MANAGER" time="FEBRUARY 2020 - OCTOBER 2024" />
                     <ul>

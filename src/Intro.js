@@ -4,6 +4,7 @@ import "./Intro.css";
 import NameCard from "./NameCard";
 import ProjectCard from "./ProjectCard";
 import FeaturedWorks from "./FeaturedWorks";
+import "./DarkModeToggle.css";
 
 
 

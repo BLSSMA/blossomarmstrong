@@ -4,6 +4,7 @@ import FeaturedProjects from "./FeaturedProjects";
 import IntroductionToAi from "../src/images/introductionToAi.jpeg";
 import passionProject from "../src/images/passionProject.png";
 import JSWeather from "../src/images/JSWeather.png";
+import "./DarkModeToggle.css";
 
 export default function FeaturedWorks(){
 

@@ -1,0 +1,130 @@
+:root {
+    --font-color: #000000;
+    --secondary-font:#000000;
+    --background-color: peachpuff;
+    --featuredworks:peachpuff;
+    --link-color: cornflowerblue;
+    --section-color:white;
+    --footer-color:rgb(255, 255, 255);
+    --hr-color:white;
+    --nav-background-color: #f4b7e1d0;
+    --nav-text-color: #333;
+    --nav-text-active: rgba(3, 4, 36, 0.497);
+}
+
+/* 2 */
+[data-theme="dark"] {
+    --font-color: #eeeeee;
+    --background-color: #333;
+    --link-color: lightblue;
+    --section-color:black;
+    --footer-color:rgb(24, 24, 24);
+    --hr-color:black;
+    --featuredworks:black;
+    --nav-background-color:rgb(24, 24, 24);
+    --nav-text-color:#eee;
+    --nav-text-active:#817e7ed0;
+    --secondary-font:#000000;
+}
+/* 3 */
+.App {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+.ResumeDetails div,
+.Resume div,
+.Work div{
+    background-color: var(--section-color);
+}
+.Work .container{
+    background-color: var(--section-color);
+}
+.CertificateStructure .grid{
+    background-color: var(--section-color);
+}
+.Intro section{
+    background-color: var(--section-color);
+    margin:40px 0;
+}
+.nav a{
+    color:var(--nav-text-color);
+}
+nav .active{
+ color:var(--nav-text-active);
+}
+.header{
+    background-color:var(--nav-background-color);
+}
+.FeaturedProjects .container{
+    background-color: var(--featuredworks);
+}
+.Footer{
+    background-color: var(--footer-color);
+}
+.FeaturedWorks{
+    background-color: var(--hr-color);
+}
+
+a {
+    color: var(--link-color);
+}
+.toggle-theme-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.toggle-theme-wrapper span {
+    font-size: 28px;
+}
+
+.toggle-theme {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+}
+
+.toggle-theme input {
+    display: none;
+}
+
+.slider {
+    background-color: #ffffffc6;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.slider:before {
+    background-color: #ffffff00;
+    bottom: 4px;
+    content: "☀️";
+    padding:2px;
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+    content: "🌙";
+}
+
+input:checked+.slider {
+    background-color: rgba(134, 132, 132, 0.36);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

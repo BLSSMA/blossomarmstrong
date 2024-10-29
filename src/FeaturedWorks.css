@@ -1,12 +1,14 @@
 .FeaturedWorks{
     background-color:white;
     border-radius:8px;
-    width:93%;
+
     margin:0 auto;
+    padding:0;
 }
 .FeaturedWorks .title{
     font-size: 20px;
     text-align: start;
+    padding-left:20px;
 }
 
 .FeaturedWorks .grid{
@@ -26,12 +28,9 @@
 }
 .FeaturedWorks section{
     padding:0;
-
-    
 }
 .container{
     padding:0;
-    margin:0;
 }
 hr{
     margin-top:5px;

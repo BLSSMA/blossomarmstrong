@@ -5,6 +5,11 @@
     margin:0;
 }
 
+.ProjectCard .row{
+    margin:0;
+    padding:0;
+}
+
 .ProjectCard .title{
     padding-bottom:30px;
     font-size:20px;

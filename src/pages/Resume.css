@@ -12,6 +12,9 @@ padding:20px;
             text-align: start;
             padding: 40px 0 0 40px;
 }
+.details{
+    border-radius: 8px;
+}
 
 .name{
     background-color: white;

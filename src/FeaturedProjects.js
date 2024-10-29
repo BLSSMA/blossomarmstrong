@@ -1,5 +1,6 @@
 import React from "react";
 import "./FeaturedProjects.css";
+import "./DarkModeToggle.css";
 
 
 export default function FreaturedProjects(props){

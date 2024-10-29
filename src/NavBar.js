@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import BALogo from "./images/BALogo.png";
+import DarkModeToggle from "./DarkModeToggle";
+
 
 const NavBar = () => {
  return (
@@ -37,6 +39,7 @@ const NavBar = () => {
            </li>
          </ul>
        </div>
+      <DarkModeToggle />
      </nav>
    </header>
 );}

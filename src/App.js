@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
 import Intro from "./Intro";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Work from "./pages/Work";
 import React from "react";
 import Resume from "./pages/Resume";
@@ -13,11 +12,11 @@ import NavBar from "./NavBar";
 
 
 const App = () => {
+
   return (
     <div className="App">
 <Router>
      <NavBar />
-
      <main className="main-content">
        <Routes>
          <Route path="/" element={<Intro />} />

@@ -1,12 +1,17 @@
 .Intro section{
-    padding:40px;
+    padding:20px;
     border-radius:8px;
+    margin:0 auto;
 }
 
 .Intro .container{
     margin:0 auto;
+    padding-bottom:40px;
 }
 
+.Intro .FeaturedWorks{
+    margin:0 auto;
+}
 
 @media(max-width: 1020px) {
 .Intro section {
