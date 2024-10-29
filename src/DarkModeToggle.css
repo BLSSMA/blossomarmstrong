@@ -31,6 +31,9 @@
     background-color: var(--background-color);
     color: var(--font-color);
 }
+.Certificates .container{
+    background-color: var(--section-color);
+}
 .ResumeDetails div,
 .Resume div,
 .Work div{
@@ -44,7 +47,6 @@
 }
 .Intro section{
     background-color: var(--section-color);
-    margin:40px 0;
 }
 .nav a{
     color:var(--nav-text-color);
@@ -127,4 +129,14 @@ input:checked+.slider {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media(max-width: 1020px) {
+    .toggle-theme{
+        width:40px;
+    }
+    input:checked+.slider:before {
+        transform: translateX(8px);
+        content: "🌙";
+    }
 }

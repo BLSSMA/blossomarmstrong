@@ -27,17 +27,12 @@ section{
 .FeaturedProjects img{
     width:200px;
 }
+.FeaturedProjects.project {
+    margin: 0 auto;
+}
     .FeaturedProjects .grid{
         margin:0 auto;
         padding:0;
         display:block;
-    }
-    .FeaturedProjects .row{
-
-        margin:0 auto;
-    }
-    .FeaturedProjects{
-        margin:0 auto;
-        padding:0;
     }
 }

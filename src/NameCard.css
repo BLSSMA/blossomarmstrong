@@ -58,20 +58,9 @@
 @media(max-width: 1020px) {
     .NameCard{
         padding:20px;
-        width:100%;
-        margin:0 auto;
+        margin:20px;
+        max-width: 95%;
     }
-
-    .NameCard .row{
-        padding:0;
-        margin:0 auto;
-    }
-    
-    .NameCard section {
-            padding: 20px;
-            margin:0 auto;
-            text-align: left;
-        }
     
         .NameCard .SelfPortrait {
             margin: 0 auto;

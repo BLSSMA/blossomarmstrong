@@ -46,7 +46,7 @@ export default function Resume(){
                             Handling communication with store vendors
                         </li>
                         <li>
-                            Creating/counting/adding/removing inventory and vendors
+                            Creating/ counting/ adding/ removing inventory and vendors
                         </li>
                         <li>
                             Creating pricing and deals for all store products

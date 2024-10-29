@@ -54,22 +54,14 @@ margin-right:4px;
 .ProjectCard section {
         text-align: start;
         padding:0;
-        margin:10px auto;
-        width:88%;
+        margin:20px;
+        max-width: 90%;
     }
-
-    .ProjectCard .container{
-        padding:0;
-    }
-
-    .ProjectCard .row{
-        margin:0 auto;
-    }
-
     .ProjectCard .title {
         padding-bottom:10px;
         margin-top:0;
     }
+
 
     .ProjectCard .cardTitle {
         padding-bottom: 11px;
