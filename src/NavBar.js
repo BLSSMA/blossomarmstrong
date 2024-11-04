@@ -1,22 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import Hamburger from 'hamburger-react'
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import BALogo from "./images/BALogo.png";
 import DarkModeToggle from "./DarkModeToggle";
 
-
 const NavBar = () => {
+const [showNavbar, setShowNavbar] = useState(false)
+
+
+
  return (
-   <header className="header">
-     <nav className="nav ">
-       <NavLink to="/" className="nav__logo">
-         <img src={BALogo} alt="initial logo" />
-       </NavLink>
-       <div
-         className={"nav__menu"}
-         id="nav-menu"
-       >
-         <ul className="nav__list">
+  <header className="header">
+    <nav className="nav">
+      <div className="container">              
+          <ul className="nav__list">
+            <div className="logo nav__item">
+              <NavLink to="/" className="nav__logo">
+              <img src={BALogo} alt="initial logo" />
+              </NavLink>
+            </div>
+              <div className="menu-icon" >
+              <Hamburger className="hamburger" toggled={showNavbar} toggle={setShowNavbar}/>
+              </div>  
+              <div className={`nav__list  ${showNavbar && 'active'}`}>
+  
            <li className="nav__item">
              <NavLink to="/" className="nav__link">
                Home
@@ -37,9 +45,13 @@ const NavBar = () => {
                Certificates
              </NavLink>
            </li>
+           <div className="nav__item">
+      <DarkModeToggle />   
+      </div>   
+          </div>          
          </ul>
-       </div>
-      <DarkModeToggle />
+
+      </div>       
      </nav>
    </header>
 );}

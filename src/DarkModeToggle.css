@@ -10,6 +10,7 @@
     --nav-background-color: #f4b7e1d0;
     --nav-text-color: #333;
     --nav-text-active: rgba(3, 4, 36, 0.497);
+    --orange-text:orangered;
 }
 
 /* 2 */
@@ -39,6 +40,9 @@
 .Work div{
     background-color: var(--section-color);
 }
+.FeaturedProjects .dateSkill{
+    color:var(--orange-text);
+}
 .Work .container{
     background-color: var(--section-color);
 }
@@ -64,6 +68,10 @@ nav .active{
     background-color: var(--footer-color);
 }
 .FeaturedWorks{
+    background-color: var(--hr-color);
+}
+.ProjectCard .projectCardOne,
+.ProjectCard .projectCardTwo {
     background-color: var(--hr-color);
 }
 

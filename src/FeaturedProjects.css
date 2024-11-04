@@ -8,13 +8,11 @@ section{
     padding-left:60px;
 }
 
-.FeaturedProjects.project {
-    margin: 20px 0;
-    font-size: 30px;
-}
-
-.FeaturedProjects.dateSkill {
+.dateSkill {
     padding: 0 0 10px 0;
+}
+.project{
+    font-size:12px;
 }
 
 .FeaturedProjects img {
@@ -24,6 +22,7 @@ section{
 }
 
 @media(max-width: 1020px) {
+
 .FeaturedProjects img{
     width:200px;
 }
@@ -31,8 +30,7 @@ section{
     margin: 0 auto;
 }
     .FeaturedProjects .grid{
-        margin:0 auto;
         padding:0;
-        display:block;
+
     }
 }

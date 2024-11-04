@@ -1,14 +1,13 @@
 .FeaturedWorks{
     background-color:white;
     border-radius:8px;
-
     margin:0 auto;
     padding:0;
 }
 .FeaturedWorks .title{
     font-size: 20px;
     text-align: start;
-    padding-left:20px;
+    padding:20px;
 }
 
 .FeaturedWorks .grid{
@@ -25,6 +24,7 @@
 .FeaturedWorks p{
     margin:0;
     padding:0;
+    font-size:18px;
 }
 .FeaturedWorks section{
     padding:0;
@@ -44,21 +44,14 @@ hr{
 .FeaturedWorks .dateSkill{
     padding:10px 0;
     color:rgba(0, 0, 0, 0.7);
-    font-size:18px;
+    font-size:16px;
 }
 
 
 
 @media(max-width: 1020px) {
-    .FeaturedWorks{
-        padding:15px 0;
-        margin:0 auto;
-        width:88%;
-    }
-
 
     .FeaturedWorks .project{
-        padding: 5px 0;
         font-size: 24px;
         font-weight: 600;
     }
@@ -68,9 +61,6 @@ hr{
     .project{
         font-weight: 600;
         font-size: 18px;
-    }
-    .dateSkill{
-        color:orangered;
     }
 
 }

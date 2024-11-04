@@ -2,13 +2,9 @@
 import "./DarkModeToggle.css";
 import { ChangeEventHandler } from "react";
 
-// 1
+
 const setDark = () => {
-
-  // 2
   localStorage.setItem("theme", "dark");
-
-  // 3
   document.documentElement.setAttribute("data-theme", "dark");
 };
 
@@ -17,7 +13,6 @@ const setLight = () => {
   document.documentElement.setAttribute("data-theme", "light");
 };
 
-// 4
 const storedTheme = localStorage.getItem("theme");
 
 const prefersDark =
@@ -31,7 +26,6 @@ if (defaultDark) {
   setDark();
 }
 
-// 5
 const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
   if (e.target.checked) {
     setDark();
@@ -49,13 +43,11 @@ const DarkMode = () => {
           type="checkbox"
           id="checkbox"
 
-          // 6
           onChange={toggleTheme}
           defaultChecked={defaultDark}
         />
         <div className="slider round"></div>
       </label>
-      
     </div>
   );
 };
