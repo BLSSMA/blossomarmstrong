@@ -61,18 +61,18 @@ section{
 nav a{
     padding:0 0 5px 0;
 }
-nav li{
-    padding:0 2px;
-    display:none;
-}
+
 .nav img{
 padding-left:15px;
+}
+.hamburger{
+    width:30px;
+    height:30px;
 }
 
 .menu-icon {
     display:block;
+    padding-left:16px;
 }
-    
-
 }
 

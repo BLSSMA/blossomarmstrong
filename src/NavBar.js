@@ -6,24 +6,29 @@ import BALogo from "./images/BALogo.png";
 import DarkModeToggle from "./DarkModeToggle";
 
 const NavBar = () => {
-const [showNavbar, setShowNavbar] = useState(false)
 
+const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
+const toggleHamburger = () => {
+  setHamburgerOpen(!hamburgerOpen)
+}
 
  return (
   <header className="header">
     <nav className="nav">
-      <div className="container">              
+      <div className="container"> 
+       <div className="menu-icon" >
+        <div className="hamburger" onClick={toggleHamburger}>
+              <Hamburger />
+           </div>
+           </div>            
           <ul className="nav__list">
+            <div className="Navbar">
             <div className="logo nav__item">
               <NavLink to="/" className="nav__logo">
               <img src={BALogo} alt="initial logo" />
               </NavLink>
             </div>
-              <div className="menu-icon" >
-              <Hamburger className="hamburger" toggled={showNavbar} toggle={setShowNavbar}/>
-              </div>  
-              <div className={`nav__list  ${showNavbar && 'active'}`}>
   
            <li className="nav__item">
              <NavLink to="/" className="nav__link">
@@ -48,12 +53,23 @@ const [showNavbar, setShowNavbar] = useState(false)
            <div className="nav__item">
       <DarkModeToggle />   
       </div>   
-          </div>          
+      </div>        
          </ul>
-
       </div>       
      </nav>
-   </header>
+
+   <style jsx>
+    {`
+@media(max-width: 1020px) {
+
+    .nav__list{
+    display: ${hamburgerOpen ? `inline` : `none`} ;
+    width:150px;
+    text-align: center;
+}}
+    `}
+   </style>
+   </header>   
 );}
 
 export default NavBar;

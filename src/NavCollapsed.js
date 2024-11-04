@@ -1,11 +1,14 @@
 
-const NavCollapsed = () => {
-const [showNavbar, setShowNavbar] = useState(false)
-              
-             return(
-<div className={`nav-elements  ${showNavbar && 'active'}`}>
+const NavCollapsed = () => {      
+    
+    return(
 <div className="menu-icon" >
-<Hamburger className="hamburger" toggled={showNavbar} toggle={setShowNavbar}/>
+<Hamburger className="hamburger" onToggle={toggled => {
+  if (toggled) {
+     // open a menu
+  } else {
+     // close a menu
+  }
+}} />
 </div> 
- </div>
 ) }
