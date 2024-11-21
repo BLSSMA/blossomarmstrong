@@ -4,6 +4,22 @@
     width:70%;
     padding-bottom:40px;
 }
+.WorkVideo .video{
+    margin-right:60px;
+}
+.WorkVideo .previewTitle{
+    font-style: italic;
+    position:relative;
+    top:-22px;
+}
+.WorkVideo .video, .WorkVideo .pagePreview{
+    background-color:orangered;
+    padding:10px;
+}
+.WorkVideo .previewTitle a{
+   text-decoration:none;
+    color:var(--font-color);
+}
 .dateSkill{
     color:orangered;
 }
