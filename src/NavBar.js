@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/js/bootstrap.min.js';
 import "./NavBar.css";
-import BAlogo from "./images/BAlogo.png";
+import myLogo from "./images/myLogo.png";
 import DarkModeToggle from "./DarkModeToggle";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="navigator">
             <nav className="navbar">
             <div className="container">
-                <a className="navbar-brand" href="/"><img src={BAlogo} className="img-fluid" alt="styalized BA"  id="anchor5"/></a>
+                <a className="navbar-brand" href="/"><img src={myLogo} className="img-fluid" alt="styalized BA"  id="anchor5"/></a>
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
