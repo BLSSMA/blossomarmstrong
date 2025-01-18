@@ -1,0 +1,36 @@
+section{
+    margin:0 auto;
+}
+
+.FeaturedProjects .grid {
+    text-align: start;
+    margin:0;
+    padding-left:60px;
+}
+
+.dateSkill {
+    padding: 0 0 10px 0;
+}
+.project{
+    font-size:12px;
+}
+
+.FeaturedProjects img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media(max-width: 1020px) {
+
+.FeaturedProjects img{
+    width:200px;
+}
+.FeaturedProjects.project {
+    margin: 0 auto;
+}
+    .FeaturedProjects .grid{
+        padding:0;
+
+    }
+}

@@ -1,0 +1,89 @@
+.ProjectCard section{
+    text-align:start;
+}
+
+.ProjectCard .row{
+    margin:0;
+    padding:0;
+}
+
+.ProjectCard .title{
+    padding:20px;
+    font-size:20px;
+}
+
+.ProjectCard .cardTitle{
+    padding-bottom:30px;
+    font-size:32px;
+    font-weight:600;
+
+}
+
+.ProjectCard .date{
+    padding-right:10px;
+    opacity:0.7;
+    font-size:16px;
+}
+
+.ProjectCard .skills {
+    padding-left: 10px;    
+    color:orangered;
+    font-size:18px;
+}
+
+.ProjectCard .dateSkills{
+    padding-bottom:20px;
+}
+.ProjectCard p{
+    line-height:1.5;
+}
+
+.ProjectCard .projectCardOne, .ProjectCard .projectCardTwo{
+    border:1px solid;
+    padding:30px;
+    width:500px;
+    margin:0 auto;
+    border-radius:4px;
+}
+
+.ProjectCard .projectCardOne{
+margin-right:4px;
+}
+
+@media(max-width: 1020px) {
+.ProjectCard section {
+        text-align: start;
+        padding:10px;
+    }
+    .ProjectCard .title {
+        padding-bottom:10px;
+    }
+    .ProjectCard .cardTitle {
+        padding-bottom: 11px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .ProjectCard .date {
+        padding-right: 5px;
+        font-size: 12px;
+    }
+
+    .ProjectCard .skills {
+        padding-left: 5px;
+        color: orangered;
+        font-size:14px;
+    }
+    .ProjectCard .dateSkills {
+        padding-bottom: 10px;
+    }
+    .ProjectCard p {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .ProjectCard .projectCardOne,
+    .ProjectCard .projectCardTwo {
+        border-radius: 4px;
+    }
+
+
+}

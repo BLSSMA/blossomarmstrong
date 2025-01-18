@@ -1,85 +1,87 @@
 :root {
     --font-color: #000000;
-    --background:white;
-    --nav-background:white;
-    --nav-toggle:white;
-    --nav-toggle-lines:rgb(255, 255, 255);
-    --nav-toggle-active:rgb(153, 153, 153);
-    --projects-text:black;
-    --projects-background:#E7AF15;
-    --hero-background:linear-gradient(180deg, rgba(0, 0, 0, 1) 26%, rgba(255, 255, 255, 1) 100%);
-    --hero-image-background:white;
-    --hero-image-after: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    --hero-image-color:white;
-    --hero-button:#789a5f;
-    --footer-color:#d5e4c8;
+    --secondary-font:#000000;
+    --background-color: peachpuff;
+    --featuredworks:peachpuff;
+    --link-color: cornflowerblue;
+    --section-color:white;
+    --footer-color:rgb(255, 255, 255);
+    --hr-color:white;
+    --nav-background-color: #f4b7e1d0;
+    --nav-text-color: #333;
+    --nav-text-active: rgba(3, 4, 36, 0.497);
+    --orange-text:orangered;
 }
 
 /* 2 */
 [data-theme="dark"] {
     --font-color: #eeeeee;
-    --background:rgb(60, 60, 60);
-    --nav-background:rgb(84, 84, 84);
-    --nav-toggle:black;
-    --nav-toggle-lines: rgb(181, 181, 181);
-    --nav-toggle-active: rgb(217, 217, 217);
-    --projects-text: black;
-    --projects-background: rgb(192, 128, 40);
-    --hero-background: linear-gradient(180deg, rgba(0, 0, 0, 1) 26%, rgb(34, 34, 34) 100%);
-    --hero-image-background: rgb(24, 24, 24);
-    --hero-image-after:linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(60, 60, 60) 100%);
-    --hero-image-color: rgb(0, 0, 0);
-    --hero-button: rgb(51, 74, 34);
-    --footer-color: #445d2e;
+    --background-color: #333;
+    --link-color: lightblue;
+    --section-color:black;
+    --footer-color:rgb(24, 24, 24);
+    --hr-color:black;
+    --featuredworks:black;
+    --nav-background-color:rgb(24, 24, 24);
+    --nav-text-color:#eee;
+    --nav-text-active:#817e7ed0;
+    --secondary-font:#000000;
 }
-
-.App{
-    background-color: var(--background);
-    color:var(--font-color);
+/* 3 */
+.App {
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
-.navigator{
-    background-color: var(--nav-background);
+.Certificates .container{
+    background-color: var(--section-color);
 }
-.navigator a{
-    color:var(--font-color);
+.ResumeDetails div,
+.Resume div,
+.Work div{
+    background-color: var(--section-color);
 }
-.navigator a .active{
-    color:var(--nav-toggle-active);
+.FeaturedProjects .dateSkill{
+    color:var(--orange-text);
 }
-.navigator button{
-    background-color:var(--nav-toggle-lines);
+.Work .container{
+    background-color: var(--section-color);
 }
-.Projects{
-    color:var(--projects-text);
-    background-color:var(--projects-background);
+.CertificateStructure .grid{
+    background-color: var(--section-color);
 }
-.Hero2 .container{
-    background:var(--hero-background);
+.Intro section{
+    background-color: var(--section-color);
 }
-.Hero2 .container:after{
-    background:var(--hero-image-after);
+.nav a{
+    color:var(--nav-text-color);
 }
-.Hero2 img{
-    background-color: var(--hero-image-background);
-    background-color:var(--hero-image-color);
+nav .active{
+ color:var(--nav-text-active);
 }
-.Hero2 button{
-    background-color: var(--hero-button);
+.header{
+    background-color:var(--nav-background-color);
 }
-.AboutPage .topbutton{
-    color:var(--font-color);
+.FeaturedProjects .container{
+    background-color: var(--featuredworks);
 }
 .Footer{
-    background-color:var(--footer-color);
+    background-color: var(--footer-color);
 }
-.Footer a{
-    color:var(--font-color);
+.FeaturedWorks{
+    background-color: var(--hr-color);
+}
+.ProjectCard .projectCardOne,
+.ProjectCard .projectCardTwo {
+    background-color: var(--hr-color);
+}
+
+a {
+    color: var(--link-color);
 }
 .toggle-theme-wrapper {
     display: flex;
     flex-direction: row;
     gap: 4px;
-    margin:0 auto;
 }
 
 .toggle-theme-wrapper span {
@@ -106,14 +108,13 @@
     right: 0;
     top: 0;
     transition: 0.2s;
-    border: 1px solid rgb(199, 199, 199);
 }
 
 .slider:before {
-    background-color: #67676700;
+    background-color: #ffffff00;
     bottom: 4px;
     content: "☀️";
-    padding: 2px;
+    padding:2px;
     height: 26px;
     left: 4px;
     position: absolute;
@@ -138,35 +139,12 @@ input:checked+.slider {
     border-radius: 50%;
 }
 
-@media (width < 1020px) {
-.DarkMode{
-    margin-left:-30px;
-}
-    .slider {
-        width:50px;
-        height:26px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 0;
-            transition: 0.2s;
-        }
-    .toggle-theme-wrapper{
-        margin:0;
-        padding:0;
-        height:100%;
+@media(max-width: 1020px) {
+    .toggle-theme{
+        width:40px;
     }
- input{
-    width:40px;
-     }
     input:checked+.slider:before {
-            transform: translateX(15px);
-            font-size:14px;
- }
- .slider:before {
-     font-size:14px;
-     padding: 7px 0 0 0;
-
-
- }
+        transform: translateX(8px);
+        content: "🌙";
+    }
 }

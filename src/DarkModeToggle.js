@@ -36,8 +36,8 @@ const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
 
 const DarkMode = () => {
   return (
-    <div className="DarkMode">
     <div className="toggle-theme-wrapper">
+      
       <label className="toggle-theme" htmlFor="checkbox">
         <input
           type="checkbox"
@@ -48,7 +48,6 @@ const DarkMode = () => {
         />
         <div className="slider round"></div>
       </label>
-    </div>
     </div>
   );
 };
