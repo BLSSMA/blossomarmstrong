@@ -1,36 +1,37 @@
-import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
-import Intro from "./Intro";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Work from "./pages/Work";
-import React from "react";
-import Resume from "./pages/Resume";
-import Certificates from "./pages/Certificates";
+import Navbar from "./Navbar";
+import Hero from "./Hero2";
+import Design from "./Design";
+import Projects from "./Projects";
+import Stickers from './Stickers';
+import Crafts from "./Crafts";
+import AboutPage from './AboutPage';
 import Footer from "./Footer";
-import NavBar from "./NavBar";
+import React from "react";
 
 
 
-const App = () => {
 
+function App() {
   return (
     <div className="App">
-<Router>
-     <NavBar />
-     <main className="main-content">
-       <Routes>
-         <Route path="/" element={<Intro />} />
-         <Route path="/Work" element={<Work />} />
-         <Route path="/Resume" element={<Resume />} />
-         <Route path="/Certificates" element={<Certificates />} />
-         {/* Define other routes that you need*/}
-       </Routes>
-     </main>
-   </Router>
-
-
-<Footer />
-
+        <Navbar />
+        <Hero />   
+        <Design />
+        <br />
+        <br />
+        <Projects />
+        <br />
+        <br />
+        <Stickers />
+        <br />
+        <br />
+        <Crafts />
+        <br />
+        <br />
+        <AboutPage />
+        <br />
+        <Footer />
     </div>
   );
 }

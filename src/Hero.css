@@ -1,0 +1,14 @@
+.Hero .container-fluid{
+    padding:0;
+}
+.Hero .textCol{
+align-content: center;
+}
+.Hero{
+    background-color: #789A5F;
+}
+.Hero .portrait{
+    object-fit: cover;
+    width:100%;
+    height:600px;
+}

@@ -1,0 +1,42 @@
+.popupBox{
+background-color: rgba(255, 255, 255, 0.903);
+color:black;
+position:absolute;
+left:840px;
+top:160px;
+padding:20px;
+border-radius: 12px;
+}
+.popupBox .closeButton{
+    position:absolute;
+    top:10px;
+    padding:1px 6px;
+    left:200px;
+}
+.popupBox a{
+    text-decoration: none;
+    color:black;
+    font-size:28px;
+    line-height:1;
+}
+.popupBox a:hover{
+    color:rgba(0, 0, 0, 0.429);
+}
+@media (width < 1020px) {
+    .popupBox {
+            left: 155px;
+            top: 40px;
+            height:150px;
+        }
+    .popupBox .closeButton {
+            top: 2px;
+            padding: 1px 6px;
+            left: 80px;
+        }
+    
+        .popupBox a {
+            font-size: 12px;
+           line-height:.5;        
+        }
+
+}

@@ -1,0 +1,96 @@
+.AboutPage p{
+font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+   text-align: justify;
+   font-size: 19px;
+}
+.AboutPage button{
+    display:block;
+    margin:0;
+    position:absolute;
+   right:80px;
+   font-size:18px;
+}
+.AboutPage .topbutton{
+    text-decoration: none;
+    position:absolute;
+}
+.AboutPage .text{
+    padding-right:100px;
+}
+.AboutPage h3{ 
+    text-decoration: underline;
+    line-height: 2;
+    text-underline-offset: 10px;} 
+.AboutPage img {
+    z-index: 1;
+}
+.AboutPage .card{
+    margin: 0 auto;
+    overflow: hidden;  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutPage .inner {
+    padding: 15px;
+    background-color: #f8f2f200;    
+    z-index: 0;  
+}
+.AboutPage .card::before {
+    content: "";
+    display: block;
+    background: linear-gradient(90deg,
+            rgb(255, 221, 71) 0%,
+            rgb(228, 104, 47) 100%);
+    height: 900px;
+    width: 900px;
+
+    position: absolute;
+    animation: rotate 8s linear infinite;
+
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (width < 1020px) {
+    .AboutPage .container {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .AboutPage .row{
+            margin:0 auto;
+        }
+    .AboutPage .text {
+            padding: 10px 30px;
+            width:100%;
+            margin: 0;
+
+        }
+        .AboutPage p{
+            font-size:14px;
+        }
+        .AboutPage .pic{
+            width: 100%;
+            margin:0;
+            padding:20px 50px;
+        }
+        .AboutPage h3 {
+            font-size: 22px;
+            line-height: 1;
+            text-underline-offset: 10px;
+            padding-bottom:20px;
+        }
+}
