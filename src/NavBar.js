@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap/dist/js/bootstrap.min.js';
 import "./NavBar.css";
 import BAlogo from "./images/BAlogo.png";
 import DarkModeToggle from "./DarkModeToggle";
