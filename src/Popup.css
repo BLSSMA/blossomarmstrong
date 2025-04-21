@@ -26,7 +26,9 @@
     color: rgba(0, 0, 0, 0.429);
 }
 
-@media (width < 1020px) {
+@media screen and (min-width:479px) and (max-width:1023px) {}
+
+@media (width < 480px) {
     .popupBox {
         left: 155px;
         top: 40px;

@@ -86,7 +86,9 @@
     font-size: 50px;
 }
 
-@media (width < 1020px) {
+@media screen and (min-width:479px) and (max-width:1023px) {}
+
+@media (width < 480px) {
 
     .Hero2 {
         margin-bottom: 300px;

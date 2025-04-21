@@ -5,9 +5,11 @@
   font-style: normal;
 }
 
-@media (width < 1020px) {
+@media screen and (min-width:479px) and (max-width:1023px) {}
+
+@media (width < 480px) {
   .App {
-    width: 100%;
+    max-width: 100%;
     object-fit: fill;
     height: 100%;
     padding: 0;
