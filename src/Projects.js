@@ -1,42 +1,60 @@
 import React from "react";
 import "./Projects.css";
-import minisProject from "./images/minisProject.jpeg";
-import weatherProject from "./images/weatherProject.jpeg";
-import dictionaryProject from "./images/dictionaryProject.jpeg";
-import cert from "./images/cert.jpeg";
+import king from "./images/king.png";
+import cat from "./images/cat.png";
+import cathat from "./images/cathat.png";
+import flowers from "./images/flowers.png";
+import lightningbug from "./images/lightningBugs.png";
+import mossy from "./images/Mossy.png";
+import nowhere from "./images/Nowhereville .png";
+import wizard from "./images/wizard.png";
+import Carousel from 'react-bootstrap/Carousel';
+
+
 
 const Projects = () => {
-    return(
-        <div className="Projects" id="anchor2">
-            <div className="container">
-                <div className="grid">
-                    <div className="row">
-                        <h3><strong>Projects via SheCodes</strong></h3>
-                    </div>
-                    <br />
-                    <div className="row projectsRow">
-                        <div className="col-md-4">
-                            <a href="https://www.shecodes.io/cohorts/2006/projects/2327376?_gl=1*pqxo3g*_gcl_au*MTc5Mjc2NTc5Mi4xNzM2NTM1MDQx" target="_blank" rel="noreferrer"><img src={minisProject} alt="webpage screenshot" title="go to project" className="d-flex projectPage"/></a>
+    return (
+        <div className="Projects container" id="anchor2">
+            <div className="grid">
+                <div className="row">
+                    <div className="col-6">
+                        <div className="pictureCarousel">
+                            <Carousel className="pictureCarousel">
+                                <Carousel.Item>
+                                    <img src={king} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={cat} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={cathat} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={flowers} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={lightningbug} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={mossy} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={nowhere} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img src={wizard} text="first slide" alt="linktree" />
+                                </Carousel.Item>
+                            </Carousel>
                         </div>
-                        <div className="col-md-4 projectMiddle">
-                            <a href="https://www.shecodes.io/cohorts/2137/projects/2421278?_gl=1*4r850b*_gcl_au*MTc5Mjc2NTc5Mi4xNzM2NTM1MDQx" target="_blank" rel="noreferrer"><img src={dictionaryProject} alt="webpage screenshot" title="go to project" className="d-flex projectPage" /></a>
-                        </div>
-                        <div className="col-md-4">
-                            <a href="https://www.shecodes.io/cohorts/2031/projects/2398735?_gl=1*1m2bljy*_gcl_au*MTc5Mjc2NTc5Mi4xNzM2NTM1MDQx" target="_blank" rel="noreferrer"><img src={weatherProject} alt="webpage screenshot" title="go to project" className="d-flex projectPage" /></a>
-                        </div>
                     </div>
-                    <br />
-                    <div className="row certRow">
-                        <a href="https://www.shecodes.io/graduates/123692-blossom-armstrong" target="_blank" rel="noreferrer"><img src={cert} alt="certificate for junior front end development" title="SheCodes Profile" className="d-flex cert"/></a>
+                    <div className="col-6">
+                        <div className="row"><h1>Stickers</h1></div>
+                        <div className="row"><h2>Custom Designs</h2></div>
                     </div>
-                    <br />
-                    <div className="row skills">
-                        <strong><p>HTML  ✧  CSS  ✧  Javascript  ✧  VS Code  ✧  Bootstrap</p>
-                        <p>Git  ✧  Github  ✧  Reponsive  ✧  API  ✧  SEO  ✧  React.js  ✧  Hosting </p></strong>
-                    </div>
+
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
