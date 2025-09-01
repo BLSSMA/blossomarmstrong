@@ -15,23 +15,23 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-        <Navbar />
-        <Hero />   
-        <Design />
-        <br />
-        <br />
-        <Projects />
-        <br />
-        <br />
-        <Stickers />
-        <br />
-        <br />
-        <Crafts />
-        <br />
-        <br />
-        <AboutPage />
-        <br />
-        <Footer />
+      <Navbar />
+      <Hero />
+      <Design />
+      <br />
+      <br />
+      <Projects />
+      <br />
+      <br />
+      <Stickers />
+      <br />
+      <br />
+      <Crafts />
+      <br />
+      <br />
+      <AboutPage />
+      <br />
+      <Footer />
     </div>
   );
 }
